@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f8924a0bd0fa0464bab6fe1cec3359cd
+guid: 25b004f1c0380ad4eb0fa3765c1f9637
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blue torch_0
+      name: obor_test_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 64
-        height: 64
+        x: 24
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97dce42a0704a3e46ad7c4e149b8e397
-      internalID: -1753428577
+      spriteID: 864698eabf7d8784db786979dc5c7269
+      internalID: -92672785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_1
+      name: obor_test_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 64
-        height: 64
+        x: 86
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c109850b57ff7f648adbc09bf0a875ec
-      internalID: -2007503354
+      spriteID: fb7f77d107612444a8c4429630ed2b1e
+      internalID: -448953590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_2
+      name: obor_test_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 16
-        width: 64
-        height: 64
+        x: 148
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02efdea261330eb44825734d13ee74fc
-      internalID: -138722749
+      spriteID: 37295486952422d489d7d2bf4682a8c9
+      internalID: 327261490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_3
+      name: obor_test_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 16
-        width: 64
-        height: 64
+        x: 210
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88854e67b4f23c44a8831bbc6d42f330
-      internalID: -1206551361
+      spriteID: 47b20173c8e4f0e4e9db6102dbfabeff
+      internalID: -185629597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_4
+      name: obor_test_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 16
-        width: 64
-        height: 64
+        x: 275
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4349ed52efd9cda4499f31a8bc052405
-      internalID: 1564032645
+      spriteID: 4bdc16ffdc02cd646bc5b45988e76f1b
+      internalID: -1057271921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_5
+      name: obor_test_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 16
-        width: 64
-        height: 64
+        x: 344
+        y: 9
+        width: 17
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 277a0a2152c1baf4c8e7f5dbdc370f3e
-      internalID: -1224057810
+      spriteID: 50be2ad4940014e499ff413326fac6a1
+      internalID: 1218133343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blue torch_6
+      name: obor_test_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 16
-        width: 64
-        height: 64
+        x: 416
+        y: 9
+        width: 19
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 637367515ec30f846b5a8fa2cf60dab7
-      internalID: -1104804119
+      spriteID: 149e5ffbf28f65544ba110db8807e114
+      internalID: -1461039874
       vertices: []
       indices: 
       edges: []
@@ -262,13 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      blue torch_0: -1753428577
-      blue torch_1: -2007503354
-      blue torch_2: -138722749
-      blue torch_3: -1206551361
-      blue torch_4: 1564032645
-      blue torch_5: -1224057810
-      blue torch_6: -1104804119
+      obor_test_0: -92672785
+      obor_test_1: -448953590
+      obor_test_2: 327261490
+      obor_test_3: -185629597
+      obor_test_4: -1057271921
+      obor_test_5: 1218133343
+      obor_test_6: -1461039874
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

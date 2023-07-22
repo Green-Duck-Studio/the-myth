@@ -12,13 +12,14 @@ public class Enemy_Behaviour : MonoBehaviour
 	public float timer;
 
 	private RaycastHit2D hit;
-	private GameObject target;
+	private Transform target;
 	private Animator anim;
 	private float distance;
 	private bool attackMode;
 	private bool inRange;
 	private bool cooling;
 	private float intTimer;
+	private Vector2 raycastVectorRotate;
 
 	private void Awake()
 	{
@@ -30,7 +31,7 @@ public class Enemy_Behaviour : MonoBehaviour
 	{
 		if(inRange)
 		{
-			hit = Physics2D.Raycast(rayCast.position, Vector2.left, rayCastLength, rayCastMask);
+			hit = Physics2D.Raycast(rayCast.position, raycastVectorRotate, rayCastLength, rayCastMask);
 			RaycastDebugger();
 		}
 		
@@ -73,9 +74,26 @@ public class Enemy_Behaviour : MonoBehaviour
 	{
 		if(collision.gameObject.tag == "Player")
 		{
-			target = collision.gameObject;
+			target = collision.transform;
 			inRange = true;
+			Flip();
 		}
+	}
+
+	private void Flip()
+	{
+		Vector3 rotation = transform.eulerAngles;
+		if(transform.position.x > target.position.x)
+		{
+			rotation.y = 180f;
+			raycastVectorRotate = Vector2.left;
+		}else
+		{
+			rotation.y = 0f;
+			raycastVectorRotate = Vector2.right;
+		}
+
+		transform.eulerAngles = rotation;
 	}
 
 	private void Attack()
@@ -109,11 +127,11 @@ public class Enemy_Behaviour : MonoBehaviour
 	{
 		if(distance > attackDistance)
 		{
-			Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.red);
+			Debug.DrawRay(rayCast.position, raycastVectorRotate * rayCastLength, Color.red);
 		}
 		else if (attackDistance > distance)
 		{
-			Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.green);
+			Debug.DrawRay(rayCast.position, raycastVectorRotate * rayCastLength, Color.green);
 		}
 	}
 }
